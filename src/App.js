@@ -24,30 +24,30 @@ const ArpabettoIPA = {
   OY:"oj", //vowel, diphthong
   UH:"ʊ", //vowel, monophthong
   UW:"uw", //vowel, diphthong (sometimes this one is considered a long monophthong instead)
-  B:"b", //consonant, labial stop
-  CH:"tʃ", //consonant, postalveolar affricate (or alveolar)
-  D:"d", //consonant, alveolar stop
-  DH:"ð", //consonant, interdental fricative (or alveolar)
-  F:"f", //consonant, labiodental fricative (or labial)
-  G:"g", //consonant, velar stop
-  HH:"h", //consonant, glottal fricative
-  JH:"dʒ",
-  K:"k",
-  L:"l",
-  M:"m",
-  N:"n",
-  NG:"ŋ",
-  P:"p",
-  R:"ɹ",
-  S:"s",
-  SH:"ʃ",
-  T:"t",
-  TH:"θ",
-  V:"v",
-  W:"w",
-  Y:"j",
-  Z:"z",
-  ZH:"ʒ"
+  B:"b", //consonant, voiced labial stop
+  CH:"tʃ", //consonant, voiceless postalveolar affricate (or alveolar)
+  D:"d", //consonant, voiced alveolar stop
+  DH:"ð", //consonant, voiced interdental fricative (or alveolar)
+  F:"f", //consonant, voiceless labiodental fricative (or labial)
+  G:"g", //consonant, voiced velar stop
+  HH:"h", //consonant, voiceless glottal fricative (or voiced, or breathy voiced)
+  JH:"dʒ", //consonant, voiced postalveolar affricate (or alveolar)
+  K:"k", //consonant, voiceless velar stop
+  L:"l", //consonant, (voiced) alveolar (lateral) approximant (or interdental)
+  M:"m", //consonant, (voiced) labial nasal
+  N:"n", //consonant, (voiced) alveolar nasal
+  NG:"ŋ", //consonant, (voiced) velar nasal
+  P:"p", //consonant, voiceless labial stop
+  R:"ɹ", //consonant, (voiced) postalveolar approximant (or alveolar)
+  S:"s", //consonant, voiceless alveolar (sibilant) fricative
+  SH:"ʃ", //consonant, voiceless postalveolar (sibilant) fricative
+  T:"t", //consonant, vocieless alveolar stop
+  TH:"θ", //consonant, voiceless interdental fricative (or alveolar)
+  V:"v", //consonant, voiced labiodental fricative (or labial)
+  W:"w", //consonant, (voiced) labiovelar approximant (both labial and velar)
+  Y:"j", //consonant, (voiced) palatal approximant 
+  Z:"z", //consonant, voiced alveolar (sibilant) fricative
+  ZH:"ʒ" //consonant, voiced postalveolar (sibilant) fricative
 }
 
 function stressHandler(terminalChar, IPAChar)
